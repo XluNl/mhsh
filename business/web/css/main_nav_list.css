@@ -1,0 +1,130 @@
+.main_nav_detial_wrp {
+   background: rgba(0, 0, 0, 0.1)
+ }
+ 
+.main_nav_detial_wrp .top_control .control a .icon_wrp .back {
+   width: 45px;
+   height: 45px;
+   background: url(../../icons/button-back-46.png) no-repeat center;
+   background-size: 75%;
+   background-position: 100% 60%;
+ }
+ 
+.preferential .goods_list li,
+.main_nav_detial_wrp .main_nav,
+.main_nav_detial_wrp .top_control {
+   background: #fff;
+ }
+ 
+.preferential .goods_list {
+   width: 100%;
+ }
+ 
+ .app.main_nav_detial_wrp .preferential .goods_list li {
+   border-radius: 10px;
+   margin-top: 10px;
+   -moz-box-shadow: 2px 7px 20px #ccc, 2px 2px 16px #ccc;
+   -webkit-box-shadow: 2px 7px 20px #ccc, 2px 2px 16px #ccc;
+   box-shadow: 2px 7px 20px #ccc, 2px 2px 16px #ccc;
+ }
+ 
+.main_nav {
+   height: 250px !important;
+   border-top: 1px solid #ccc;
+ }
+ 
+.main_nav .swiper-container {
+   width: 100%;
+   height: 230px;
+   margin-top: 10px;
+   border-radius: 20px;
+   padding: 15px 0;
+   -moz-box-shadow: 2px 7px 20px #ccc, 2px 2px 16px #ccc;
+   -webkit-box-shadow: 2px 7px 20px #ccc, 2px 2px 16px #ccc;
+   box-shadow: 2px 7px 20px #ccc, 2px 2px 16px #ccc;
+ }
+ 
+.main_nav .swiper-container .swiper-wrapper .swiper-slide .item li .img {}
+ 
+.main_nav .swiper-container .swiper-wrapper .swiper-slide .item li .img img {
+   height: 60px;
+   margin-left: -10px;
+ }
+ 
+.main_nav .swiper-container .swiper-wrapper .swiper-slide .item li {
+   position: relative;
+ }
+ 
+.main_nav .swiper-container .swiper-wrapper .swiper-slide .item li .mark {
+   position: absolute;
+   width: 35px;
+   height: 35px;
+   border-radius: 100%;
+   top: 10px;
+   left: 50%;
+   margin-left: 20px;
+   background: red;
+   display: none;
+ }
+ 
+.main_nav .swiper-container .swiper-wrapper .swiper-slide .item li .mark.on {
+   background: url(../../icons/icon-xuanzhong.png) no-repeat center;
+   background-size: 100%;
+   display: block;
+ }
+ 
+ .swiper-slide {
+   text-align: center;
+   font-size: 18px;
+   height: 180px;
+ }
+  /*µ¼º½²¿·Ö*/
+ 
+ .app .detial_nav {
+   width: 100%;
+   height: 45px;
+   background: rgb(19, 175, 104);
+   border-radius: 18px;
+   margin-bottom: 30px;
+   overflow: hidden;
+ }
+ 
+ .app .detial_nav ul {
+   width: 100%;
+   height: 45px;
+   text-align: left;
+   padding-left: 10px;
+   white-space: nowrap;
+   overflow: hidden;
+   overflow-x: scroll;
+   /* 1 */
+   -webkit-backface-visibility: hidden;
+   -webkit-perspective: 1000;
+   -webkit-overflow-scrolling: touch;
+   /* 2 */
+   text-align: justify;
+   /* 3 */
+   &::-webkit-scrollbar {
+     display: none;
+   }
+ }
+ 
+ .app .detial_nav ul li {
+   display: inline-block;
+   width: auto;
+   height: 100%;
+   text-align: center;
+   line-height: 45px;
+   color: #fff;
+   padding: 0 10px;
+ }
+ 
+ .app .detial_nav ul li span {
+   font-size: 15px;
+   font-weight: bold;
+   width: auto;
+ }
+ 
+ .app .detial_nav ul li span.on {
+   border-bottom: 2px solid #fff;
+ }

@@ -1,0 +1,323 @@
+/* 今日特惠 */
+
+ .preferential {
+  width: 100%;
+  height: auto;
+}
+
+ .preferential .tehui {
+  width: 96%;
+  height: 30px;
+  margin: 0 auto;
+  border-left: 5px solid rgb(19, 175, 104);
+  line-height: 30px;
+  padding-left: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 2% 10px 2%;
+}
+
+ .preferential .goods_list {
+  width: 100%;
+  height: auto;
+  padding-bottom: 80px;
+  margin: 0 auto;
+}
+
+ .preferential .goods_list li {
+  width: 100%;
+  height: auto;
+  min-height: 160px;
+  overflow: hidden;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 3px;
+ /**/
+ 	padding-left:10px;
+ 	padding-right:10px;
+}
+
+ .preferential .goods_list li .cover {
+  width: 40%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+  float: left;
+  padding: 0;
+}
+
+ .preferential .goods_list li a {
+  padding: 0;
+}
+
+ .preferential .goods_list li a .cover .img {
+  width: 110px;
+  height: 110px;
+  margin: 25px 0;
+  padding: 0;
+  text-align: center;
+}
+
+ .preferential .goods_list li a .cover .img img {
+  width: 100%;
+  height: 100%;
+}
+
+ .preferential .goods_list li .info {
+  width: 60%;
+  height: auto;
+  float: right;
+  overflow: hidden;
+}
+
+ .preferential .goods_list li .info .name_discount {
+  width: 100%;
+  height: auto;
+  min-height: 30px;
+  overflow: hidden;
+}
+
+ .preferential .goods_list li .info .name_discount .name {
+  width: 100%;
+  height: auto;
+  line-height: 20px;
+ 	/*修改了padding  从 3px 1px 1px 0到*/
+  padding: 13px 1px 1px 0;
+  font-weight: bold;
+  font-size: 18px;
+  float: left;
+}
+
+ .preferential .goods_list li .info .name_discount .discount {
+  width: 65%;
+  height: 30px;
+  float: right;
+  display: none;
+}
+
+ .preferential .goods_list li .info .name_discount .discount .discount_icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url(../../icons/Icon-hot-51.png) no-repeat center;
+  background-size: 70%;
+  float: left;
+}
+
+ .preferential .goods_list li .info .name_discount .discount span {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  float: left;
+  font-size: 14px;
+  color: rgb(216, 30, 7);
+}
+
+ .preferential .goods_list li .info .name_discount .discount span em {
+  font-size: 14px;
+}
+
+ .preferential .goods_list li .info .marks {
+  width: 100%;
+  height: 40px;
+}
+
+ .preferential .goods_list li .info .marks span {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding: 3px 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-top: 9px;
+}
+
+ .preferential .goods_list li .info .marks span.import {
+  color: red;
+  border: 1px solid red;
+}
+
+ .preferential .goods_list li .info .marks span.detection {
+  color: rgb(255, 10, 149);
+  border: 1px solid rgb(255, 10, 149);
+  font-weight: bold;
+}
+
+ .preferential .goods_list li .info .marks span.member {
+  color: #fff;
+  background: rgb(19, 175, 104);
+}
+
+ .preferential .goods_list li .info .price {
+  width: 100%;
+  height: 20px;
+  color: #555;
+  font-size: 14px;
+}
+
+ .preferential .goods_list li .info .add_editor {
+  display: inline-block;
+  width: auto;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+  color: #888;
+}
+
+ .preferential .goods_list li .info .price_cart {
+  width: 100%;
+  height: 40px;
+}
+
+ .preferential .goods_list li .info .price_cart .contrast {
+  width: 70%;
+  height: 100%;
+  float: left;
+}
+
+ .preferential .goods_list li .info .price_cart .contrast .discount_price {
+  /* width: 60%; */
+  height: 40px;
+  font-weight: bold;
+  font-size: 22px;
+  color: rgb(228, 0, 0);
+  line-height: 40px;
+  float: left;
+}
+
+ .preferential .goods_list li .info .price_cart .contrast .discount_price span {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+ .preferential .goods_list li .info .price_cart .contrast .current_price {
+  width: 40%;
+  height: 100%;
+  float: left;
+  font-size: 12px;
+  color: #666;
+  position: relative;
+}
+
+ .preferential .goods_list li .info .price_cart .contrast .current_price .text {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  line-height: 40px;
+  font-size: 14px;
+  color: #666;
+}
+
+ .preferential .goods_list li .info .price_cart .contrast .current_price .slant {
+  position: absolute;
+  width: 90%;
+  height: 1px;
+  background: red;
+  transform: rotate(7deg);
+  top: 22px;
+  left: 5px;
+}
+
+ .preferential .goods_list li .info .price_cart .shopping_cart {
+  width: 30%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+ .preferential .goods_list li .info .price_cart .shopping_cart .cart_icon {
+  width: 40px;
+  height: 40px;
+  float: right;
+  background: red;
+  background: url(../../icons/icon-spcar_1.png) no-repeat center;
+  background-size: 100%;
+  margin-right: 3px;
+}
+
+ .preferential .goods_list li .info .price_cart .shopping_cart .single_gooods_number {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 30px;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  min-height: 20px;
+  min-width: 20px;
+  line-height: 20px;
+  background: red;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0 5px;
+  font-size: 11px;
+  overflow: hidden;
+  text-align: center;
+  display: none;
+}
+
+ .preferential .goods_list li .info .price_cart .shopping_cart .single_gooods_number.on {
+  display: block;
+}
+
+
+ /*添加备注的样式*/
+ 
+ .app .add_remark_wrp {
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   z-index: 100;
+   background: rgba(255, 255, 255, 0.97);
+   display: none;
+ }
+ 
+ .app .close_remark {
+   width: 85%;
+   height: 40px;
+   margin: 0 auto;
+   margin-top: 50px;
+   text-align: center;
+ }
+ 
+ .app .close_remark .icon {
+   display: inline-block;
+   width: 40px;
+   height: 40px;
+   background: url(../../icons/Icon-car-97.png) no-repeat center;
+   background-size: 100%;
+   border: 2px solid #bbb;
+   border-radius: 100%;
+ }
+ 
+ .app .add_remark_wrp .add_remark {
+   width: 85%;
+   height: 160px;
+   margin: 0 auto;
+   margin-top: 60px;
+ }
+ 
+ .app .add_remark_wrp .add_remark .text {
+   width: 100%;
+   height: 50px;
+   font-size: 18px;
+   border: none;
+   border-radius: 0;
+   background: rgba(0, 0, 0, 0.2);
+ }
+ 
+ .app .add_remark_wrp .add_remark .submit {
+   width: 100%;
+   height: 50px;
+   margin-top: 50px;
+   background: rgb(19, 175, 104);
+   border-radius: 25px;
+   font-size: 20px;
+   font-weight: bold;
+   color: #fff;
+   text-align:center;
+ }

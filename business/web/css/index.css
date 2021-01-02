@@ -1,0 +1,249 @@
+/*顶部操作栏目*/
+
+.app .top_control {
+  width: 100%;
+  height: 50px;
+}
+
+.app .top_control .control {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.app .top_control .selection {
+  position: absolute;
+  width: 16%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.app .top_control .icon_wrp .icon.star {
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  background: url(../../icons/Icon-star1-46.png) no-repeat center;
+  background-size: 45%
+}
+
+.app .top_control .time_location {
+  position: absolute;
+  width: 64%;
+  height: 100%;
+  left: 15%;
+  overflow: hidden;
+}
+
+.app .top_control .time_location .time {
+  width: 40%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+}
+
+.app .top_control .time_location .time.sameday {
+  background: url(../../icons/icon-dangri.png) no-repeat center;
+  background-size: 80%;
+}
+
+.app .top_control .time_location .time.nextday {
+  background: url(../../icons/icon-ciri-59.png) no-repeat center;
+  background-size: 80%;
+}
+
+.app .top_control .time_location .location {
+  width: 60%;
+  height: 100%;
+  float: right;
+  overflow: hidden;
+}
+
+.app .top_control .time_location .location .icon_wrp {
+  width: 35%;
+  height: 100%;
+  float: left;
+}
+
+.app .top_control .time_location .location .icon_wrp .icon.Icon-address {
+  width: 50px;
+  height: 50px;
+  background: url(../../icons/Icon-address.png) no-repeat center;
+  background-size: 35%;
+}
+
+.app .top_control .time_location .location .text {
+  width: 65%;
+  height: 100%;
+  float: right;
+  text-align: left;
+  line-height: 50px;
+  color: #666;
+}
+
+.app .top_control .search_control {
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  left: 80%;
+  top: 0;
+}
+
+.app .top_control .search_control .icon_wrp {
+  width: 50px;
+  height: 50px;
+  float: right;
+  margin-right: 5px;
+}
+
+.app .top_control .search_control .icon_wrp .icon.search {
+  width: 50px;
+  height: 50px;
+  background: url(../../icons/icon-search.png) no-repeat center;
+  background-size: 50%;
+}
+
+
+/*焦点轮播图*/
+
+.app .banner {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  position: relative;
+}
+
+.app .banner .mySwipe {
+  visibility: hidden;
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  _width: 100%;
+  height: 190px;
+  overflow: hidden;
+}
+
+.app .banner .mySwipe .swipe-wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.app .banner .mySwipe .swipe-wrap .banner_list {
+  float: left;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.app .banner .mySwipe .swipe-wrap .banner_list img {
+  width: 100%;
+  height: 100%;
+}
+
+.app .banner .btn_control {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+
+.app .banner .btn_control span {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #888;
+  margin: 10px 5px;
+  border-radius: 100%;
+}
+
+.app .banner .btn_control span.on {
+  width: 16px;
+  border-radius: 5px;
+}
+
+.app .banner .notice_wrp {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.app .banner .notice_wrp .icon {
+  display: inline-block;
+  width: 6%;
+  height: 30px;
+  background: url(../../icons/icon-inform.png) no-repeat center;
+  background-size: 70%;
+  float: left;
+}
+
+.app .banner .notice_wrp span {
+  display: inline-block;
+  width: 94%;
+  height: 30px;
+  float: left;
+  font-size: 11px;
+  line-height: 30px;
+  color: #fff;
+  font-weight: bold;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+
+/* 首页主要菜单 */
+
+.app .main_nav {
+  width: 100%;
+  height: 170px;
+  overflow: hidden;
+}
+
+.app .main_nav .item {
+  width: 100%;
+  height: 50%;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+.app .main_nav .item li {
+  width: 33.333%;
+  height: 100%;
+  float: left;
+  text-align: center;
+}
+
+.app .main_nav .item li .img {
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+}
+
+.app .main_nav .item li .img img {
+  width: auto;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.app .main_nav .item li .text {
+  height: 30%;
+  line-height: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+/*个人收藏页面，收藏图标小改动*/
+
+.app .top_control .icon_wrp .icon.collection_icon {
+  background: url(../../icons/icon_selecton.png) no-repeat center;
+  background-size: 45%
+}
+
+/*添加备注的样式*/
+/*删除了添加备注的样式*/
+
+
+

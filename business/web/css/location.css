@@ -1,0 +1,241 @@
+.app {}
+
+.app .top_bar {
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 55px;
+  z-index: 3;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.app .top_bar .came_back {
+  width: 12%;
+  height: 30px;
+  margin-top: 10px;
+  float: left;
+  border-right: 1px solid #999;
+}
+
+.app .top_bar .came_back .icon_wrp {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-left: 3px;
+}
+
+.app .top_bar .came_back .icon_wrp .icon {
+  width: 100%;
+  height: 100%;
+  background: url(../../res/icons/button-back-46.png) no-repeat center;
+  background-size: 100%
+}
+
+
+/*地址部分*/
+
+.app .top_bar .location_wrp {
+  width: 28%;
+  height: 30px;
+  margin-top: 10px;
+  float: left;
+  border-right: 1px solid #999;
+}
+
+.app .top_bar .location_wrp .icon_wrp_left {
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+
+.app .top_bar .location_wrp .icon_wrp_left .icon {
+  width: 100%;
+  height: 100%;
+  background: url(../../res/icons/Icon-address.png) no-repeat center;
+  background-size: 60%
+}
+
+.app .top_bar .location_wrp .text {
+  width: 50%;
+  height: 100%;
+  float: left;
+  line-height: 30px;
+  text-indent: 2px;
+  font-size: 16px;
+}
+
+.app .top_bar .location_wrp .icon_wrp_right {
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+
+.app .top_bar .location_wrp .icon_wrp_right .icon {
+  width: 100%;
+  height: 100%;
+  background: url(../../res/icons/iocon-seleceted.png) no-repeat center;
+  background-size: 50%
+}
+
+
+/*搜索部分*/
+
+.app .top_bar .search_wrp {
+  width: 60%;
+  float: right;
+  height: 55px;
+  overflow: hidden;
+}
+
+.app .top_bar .search_wrp form {
+  position: relative;
+  width: 100%;
+  height: 36px;
+  margin: 7px 0;
+  overflow: hidden;
+}
+
+.app .top_bar .search_wrp form .icon_placeholder {
+  position: absolute;
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  text-align: left;
+  border-radius: 22px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.app .top_bar .search_wrp form .icon_placeholder .icon {
+  position: absolute;
+  left: 3%;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+}
+
+.app .top_bar .search_wrp form .icon_placeholder .icon {
+  background: url(../../res/icons/search.png) no-repeat center;
+  background-size: 80%
+}
+
+.app .top_bar .search_wrp form .icon_placeholder .placeholder {
+  position: absolute;
+  left: 50%;
+  margin-left: -65px;
+  display: inline-block;
+  width: 130px;
+  height: 36px;
+  line-height: 38px;
+  font-size: 16px;
+  color: #555;
+}
+
+.app .top_bar .search_wrp form .text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  z-index: 2;
+  background: none;
+  text-indent: 10px;
+}
+
+
+/*主体部分*/
+
+.app .map_wrp {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #eee;
+}
+
+
+/*选择地址部分*/
+
+.app .selected_wrp {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  padding: 10px 0 30px 0;
+}
+
+.app .selected_wrp ul {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.app .selected_wrp ul li {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #ccc;
+}
+
+.app .selected_wrp ul li .icon_wrp {
+  width: 15%;
+  height: 50px;
+  float: left;
+}
+
+.app .selected_wrp ul li .icon_wrp .icon {
+  width: 50px;
+  height: 50px;
+  background: url(../../res/icons/Icon-pay-89.png) no-repeat center;
+  background-size: 50%
+}
+
+.app .selected_wrp ul li .icon_wrp.on .icon {
+  background: url(../../res/icons/icon-xuanzhong.png) no-repeat center;
+  background-size: 50%
+}
+
+.app .selected_wrp ul li .text {
+  width: 85%;
+  height: 50px;
+  float: left;
+}
+
+.app .selected_wrp ul li.now .text {
+  line-height: 50px;
+  font-size: 17px;
+}
+
+.app .selected_wrp ul li .text .title {
+  width: 100%;
+  height: 25px;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.app .selected_wrp ul li .text .detail {
+  width: 100%;
+  height: 25px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #777;
+}
+
+.app .selected_wrp .map_submit {
+  width: 90%;
+  height: 45px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 45px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background: rgb(125, 198, 90);
+  border-radius: 20px;
+  margin-top: 20px;
+}

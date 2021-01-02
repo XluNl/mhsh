@@ -1,0 +1,46 @@
+/*公共定义*/
+@charset "utf-8";
+html{ width:100%; height:100%; -webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;-o-text-size-adjust:none;text-size-adjust:none;}
+body{ width:100%; height:100%; font-weight:normal;-webkit-font-smoothing:antialiased; -moz-font-smoothing:antialiased; -o-font-smoothing:antialiased; -ms-font-smoothing:antialiased; font-smoothing:antialiased; background:#fff;font: 14px/1.5 "PingFang SC", Helvetica, "Helvetica Neue", "寰蒋闆呴粦", Tahoma, Arial, sans-serif;}
+*,*:after,*:before{ -weibkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box; box-sizing:border-box; }
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside,canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0;padding: 0;border: 0;
+font-size: 100%;font: 14px/1.5 "PingFang SC", Helvetica, "Helvetica Neue", "寰蒋闆呴粦", Tahoma, Arial, sans-serif;}
+ul, ol, li {list-style-type:none;vertical-align:0}
+body{background:#fff;font:normal 12px/22px 宋体;}
+a img {border:0}
+a{ text-decoration:none;outline：none}
+a:hover{ text-decoration:underline;text-decoration:none;background: none}
+*:focus {outline: none;} 
+.f_l{ float:left}
+.f_r{ float:right}
+a:visited{ color:#000;background: none}
+a:link{ color:#000;background: none}
+.icon{display:block;}
+input ,textarea,button{border-style: none;}
+/*地址和搜索*/
+.app footer{position: fixed;bottom: 0;height: 55px;width: 100%;background: #fff;border-top: 1px solid #eee;z-index: 99;}
+.app footer ul{width: 100%;height: 100%}
+.app footer ul li{width: 25%;height: 100%;float: left;}
+.app footer ul li a{display:block;width: 100%;height: 100%;text-align: center;color: #555}
+.app footer ul li a .icon{width: 100%;height: 35px;overflow: hidden;line-height: 30px;padding-top: 8px;}
+.app footer ul .home a .icon{background: url(../../icons/Icon-menu-62.png) no-repeat center;background-size: 30%}
+.app footer ul .shoping_cart a .icon{background: url(../../icons/Icon-menu-68.png) no-repeat center;background-size: 30%}
+.app footer ul .order_management a .icon{background: url(../../icons/Icon-menu-67.png) no-repeat center;background-size: 30%}
+.app footer ul .personal_center a .icon{background: url(../../icons/Icon-menu-66.png) no-repeat center;background-size: 30%}
+.app footer ul .home.on a .icon{background: url(../../icons/Icon-menu-69.png) no-repeat center;background-size: 30%}
+.app footer ul .shoping_cart.on a .icon{background: url(../../icons/Icon-menu-63.png) no-repeat center;background-size: 30%}
+.app footer ul .order_management.on a .icon{background: url(../../icons/Icon-menu-64.png) no-repeat center;background-size: 30%}
+.app footer ul .personal_center.on a .icon{background: url(../../icons/Icon-menu-65.png) no-repeat center;background-size: 30%}
+.app footer ul li.on a{color: #000}
+.app footer ul li a .text{width: 100%;height: 20px;line-height: 15px;font-size: 12px;}
+.app footer ul .shoping_cart{position: relative;}
+.app footer ul .shoping_cart .goods_number{position: absolute;left: 0;top: 0;width: 100%;height: 25px;overflow: hidden;text-align: center;padding-left: 41px;display: none;}
+.app footer ul .shoping_cart .goods_number span{display: inline-block;width: auto;height: auto; min-height: 20px;min-width: 20px;line-height: 20px;background: red;color: #fff; border-radius: 20px;padding: 0 5px;font-size: 11px;overflow: hidden;}
+.app footer ul .shoping_cart .goods_number.on{display: block;}
+/*对整体主体main 的定义*/
+
+
+
+/*修改layerMobile的被修改的样式起始*/
+.layui-m-layerbtn span{line-height:50px !important}
+/*修改layerMobile的被修改的样式截止*/

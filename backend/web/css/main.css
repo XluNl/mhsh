@@ -1,0 +1,79 @@
+.stepInfo{
+	position:relative;
+	background:#fff;
+	margin:15px auto 50px auto;
+	width:100%;
+}
+.stepInfo li{
+	float:left;
+	width:100%;
+	height:0.4em;
+	background:#bbb;
+	margin-top:1.2em;
+	}
+.stepInfo .li-active{
+	background:#f00;
+}
+.stepInfo .li-col-0{
+	width:20%;
+}
+.stepInfo .li-col-1{
+	width:20%;
+}
+.stepInfo .li-col-2{
+	width:20%;
+}
+.stepInfo .li-col-3{
+	width:20%;
+}
+.stepInfo .li-col-4{
+	width:20%;
+}
+.stepInfo .li-col-5{
+	width:20%;
+}
+.stepInfo .li-col-6{
+	width:50%;
+}
+.stepInfo .li-col-7{
+	width:50%;
+}
+
+.stepIco{
+	border-radius:2em;
+	font-weight:bold;
+	background:#bbb;
+	text-align:center;
+	line-height:4em;
+	vertical-align:middle;
+	color:#fff; 
+	position:absolute;
+	width:4em;
+	height:4em;
+}
+.stepIco0{top:-0.7em;left:-1%;}
+.stepIco1{top:-0.7em;left:20%;}
+.stepIco2{top:-0.7em;left:40%;}
+.stepIco3{top:-0.7em;left:40%;}
+.stepIco4{top:-0.7em;left:60%;}
+.stepIco5{top:-0.7em;left:80%;}
+.stepIco6{top:-0.7em;left:50%;}
+.stepIco7{top:-0.7em;left:100%;}
+.stepText{
+	color:#666;
+	width:4.5em;
+	text-align:center;
+	
+}
+.text-active{
+	color:#f00;
+}
+.ico-active{
+	background-color:#f00;
+}
+.ico-active div{
+	color:#f00;
+}
+.Ico-lg{
+	font-size:2em;
+}

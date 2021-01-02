@@ -1,0 +1,112 @@
+/*搜索框*/
+
+.app {
+  padding: 0
+}
+
+.app header .search {
+  width: 100%;
+  height: 66px;
+  overflow: hidden;
+  border-bottom: 1px solid #eee;
+}
+
+.app header .search form {
+  position: relative;
+  width: 80%;
+  height: 36px;
+  margin: 17px 10%;
+}
+
+.app header .search form .icon_placeholder {
+  position: absolute;
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  background: rgba(22, 22, 22, 0.15);
+  border-radius: 22px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.app header .search form .icon_placeholder .icon {
+  position: absolute;
+  left: 3%;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+}
+
+.app header .search form .icon_placeholder .icon {
+  background: url(../../icons/Icon-search-46.png) no-repeat center;
+  background-size: 60%
+}
+
+.app header .search form .icon_placeholder .placeholder {
+  position: absolute;
+  left: 50%;
+  margin-left: -65px;
+  display: inline-block;
+  width: 130px;
+  height: 36px;
+  line-height: 38px;
+  font-size: 16px;
+  color: #555;
+}
+
+.app header .search form .text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  z-index: 2;
+  background: none;
+  text-indent: 10px;
+  padding-left:40px;
+}
+
+.app header .search form .search_submit {
+  position: absolute;
+  width: 60px;
+  height: 100%;
+  right: 0;
+  top: 0;
+  border-radius: 0 12px 12px 0;
+  z-index: 3;
+  background: none;
+  background: rgb(19, 175, 104);
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*搜索推荐*/
+
+.app .search_recommend {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 75px;
+}
+
+.app .search_recommend .item {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.app .search_recommend .item .list {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding: 3px 12px;
+  border: 2px solid rgb(116, 208, 166);
+  border-radius: 16px;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(116, 208, 166);
+  margin: 0 6px;
+}

@@ -1,0 +1,34 @@
+{
+  "name": "gietos/yii2-ionicons",
+  "description": "Asset Bundle for Yii2 with Ionicons",
+  "keywords": [
+    "yii",
+    "ionicons",
+    "asset",
+    "bundle"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "support": {
+    "issues": "https://github.com/gietos/yii2-ionicons/issues",
+    "source": "https://github.com/gietos/yii2-ionicons"
+  },
+  "authors": [
+    {
+      "name": "Sergey Kasatkin",
+      "email": "spam@onsky.ru"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+
+    "yiisoft/yii2": "2.0.*",
+    "driftyco/ionicons": "2.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "gietos\\yii\\ionicons\\": ""
+    }
+  }
+}

@@ -1,0 +1,1975 @@
+  /*个人中心*/
+  
+  .app .title {
+    width: 130px;
+    height: 55px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .app .title.sub_wallet {
+    width: 85px;
+  }
+  
+  .app .title.sub_wallet .icon_wrp {
+    display: none;
+  }
+  
+  .app .title .icon_wrp {
+    width: 45px;
+    height: 55px;
+    float: left;
+  }
+  
+  .app .title .icon_wrp .Icon-name {
+    width: 100%;
+    height: 100%;
+    background: url(../../icons/Icon-name.png) no-repeat center;
+    background-size: 60%;
+    background-position: left 50%;
+  }
+  
+  .app .title .text {
+    width: 85px;
+    height: 55px;
+    line-height: 55px;
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+  }
+  
+  .app .came_back {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+  }
+  
+  .app .came_back a {}
+  
+  .app .came_back a .icon_wrp {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .app .came_back a .icon_wrp .ICON-back {
+    width: 100%;
+    height: 100%;
+    background: url(../../icons/ICON-back.png) no-repeat center;
+    background-size: 90%;
+  }
+  /*用户*/
+  
+  .app .info {
+    width: 100%;
+    height: 200px;
+    background: url(../../icons/ICON-99.png) no-repeat center;
+    background-position: 0% 0%;
+    background-size: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .app .info .icon_wrp {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    overflow: hidden;
+  }
+  
+  .app .info .icon_wrp .ICON-109 {
+    width: 100%;
+    height: 100%;
+    background: url(../../icons/ICON-109.png) no-repeat center;
+    background-size: 100%;
+  }
+  
+  .app .info .name {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .app .info .telephone_number {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+  }
+  /*列表*/
+  
+  .app .item_list {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 80px;
+  }
+  
+  .app .item_list a {}
+  
+  .app .item_list a li {
+    width: 100%;
+    height: 60px;
+    padding-top: 8px;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .app .item_list a li .icon_wrp {
+    width: 15%;
+    height: 50px;
+    float: left;
+  }
+  
+  .app .item_list a li .icon_wrp .icon {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .app .item_list a li .icon_wrp .icon.ICON-xiugai {
+    background: url(../../icons/ICON-xiugai.png) no-repeat center;
+    background-size: 40%
+  }
+  
+  .app .item_list a li .icon_wrp .icon.icon_selecton {
+    background: url(../../icons/icon_selecton.png) no-repeat center;
+    background-size: 45%
+  }
+  
+  .app .item_list a li .icon_wrp .icon.ICON-wallet {
+    background: url(../../icons/ICON-wallet.png) no-repeat center;
+    background-size: 45%
+  }
+  
+  .app .item_list a li .icon_wrp .icon.ICON-car-122 {
+    background: url(../../icons/ICON-car-122.png) no-repeat center;
+    background-size: 50%
+  }
+  
+  .app .item_list a li .icon_wrp .icon.ICON-discount-coupon {
+    background: url(../../icons/ICON-discount-coupon.png) no-repeat center;
+    background-size: 50%
+  }
+  
+  .app .item_list a li .icon_wrp .icon.ICON-invoice {
+    background: url(../../icons/ICON-invoice.png) no-repeat center;
+    background-size: 45%
+  }
+  
+  .app .item_list a li .icon_wrp .icon.ICON-gift {
+    background: url(../../icons/ICON-gift.png) no-repeat center;
+    background-size: 45%
+  }
+  
+  .app .item_list a li .icon_wrp .icon.ICON-feedback {
+    background: url(../../icons/ICON-feedback.png) no-repeat center;
+    background-size: 45%
+  }
+  
+  .app .item_list a li .icon_wrp .icon.sales-return {
+    background: url(../../icons/sales-return.png) no-repeat center;
+    background-size: 40%
+  }
+  
+  .app .item_list a li .text {
+    width: 85%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #666;
+  }
+  /*==================================修改个人资料===========================================*/
+  /*==================================修改个人资料开始===========================================*/
+  
+  .app .title .icon_wrp .Icon-name.xiugai {
+    background: url(../../icons/ICON-xiugai.png) no-repeat center;
+    background-size: 60%;
+    background-position: left 50%;
+  }
+  
+  .app .personal_date {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #ccc;
+    overflow: hidden;
+    padding-bottom: 30px;
+  }
+  
+  .app .personal_date .date {
+    width: 100%;
+    height: auto;
+    background: rgb(19, 175, 104);
+    border-radius: 20px;
+    margin: 20px 0 60px 0;
+    padding: 15px 0;
+    -moz-box-shadow: 2px 7px 20px #999, 2px 2px 16px #999;
+    -webkit-box-shadow: 2px 7px 20px #999, 2px 2px 16px #999;
+    box-shadow: 2px 7px 20px #999, 2px 2px 16px #999;
+    overflow: hidden;
+  }
+  
+  .app .personal_date .date .head_sex {
+    width: 90%;
+    height: 90px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  
+  .app .personal_date .date .head_sex .head {
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    border-radius: 100%;
+    float: left;
+  }
+  
+  .app .personal_date .date .head_sex .head img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .app .personal_date .date .head_sex .sex {
+    width: 180px;
+    height: 30px;
+    margin-top: 30px;
+    float: right;
+  }
+  
+  .app .personal_date .date .head_sex .sex label {
+    width: 50%;
+    height: 100%;
+    float: left;
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  .app .personal_date .date .head_sex .sex label input {}
+  /*----*/
+  
+  .app .personal_date .date .date_list {
+    width: 90%;
+    margin: 0 auto;
+    height: 50px;
+    overflow: hidden;
+  }
+  
+  .app .personal_date .date .date_list.contacts {}
+  
+  .app .personal_date .date .date_list label,.app .personal_date .date .date_list span {
+    display: block;
+    width: 30%;
+    height: 50px;
+    float: left;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .app .personal_date .date .date_list input {
+    width: 70%;
+    height: 40px;
+    border-radius: 8px;
+    text-indent: 5px;
+    font-size: 16px;
+  }
+  /*----*/
+  
+  .app .personal_date .date .date_list.location {
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+  }
+  
+  .app .personal_date .date .date_list.location span {}
+  
+  .app .personal_date .date .date_list.location textarea {
+    width: 70%;
+    height: auto;
+    min-height: 60px;
+    border-radius: 8px;
+    text-indent: 0px;
+    font-size: 16px;
+  }
+  /*----*/
+  
+  .app .personal_date .date .dashed {
+    width: 100%;
+    height: 30px;
+    border-top: 1px dashed #fff;
+    margin-top: 15px;
+  }
+  /*----*/
+  
+  .app .personal_date .date .revise {
+    width: 100%;
+    height: 50px;
+    position: relative;
+  }
+  
+  .app .personal_date .date .revise .icon_text {
+    position: absolute;
+    width: 150px;
+    height: 100%;
+    left: 50%;
+    top: 0;
+    margin-left: -75px;
+    text-align: center;
+  }
+  
+  .app .personal_date .date .revise .icon_text .icon_tijiao {
+    display: block;
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: url(../../icons/ICON-yes.png) no-repeat center;
+    background-size: 60%;
+  }
+  
+  .app .personal_date .date .revise .icon_text .text {
+    display: block;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .app .personal_date .date .submit {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: none;
+  }
+  /*==================================修改个人资料结束===========================================*/
+  /*==================================我的钱包部分开始===========================================*/
+  
+  .app .title .icon_wrp .ICON-wallet {
+    width: 100%;
+    height: 100%;
+    background: url(../../icons/ICON-wallet.png) no-repeat center;
+    background-size: 60%;
+    background-position: left 50%;
+  }
+  
+  .app .main.my_wallet {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #ccc;
+    padding-bottom: 50px;
+  }
+  
+  .app .main.my_wallet .balance {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: rgb(19, 175, 104);
+    overflow: hidden;
+    border-radius: 20px;
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    -moz-box-shadow: 2px 7px 20px #999, 2px 2px 16px #999;
+    -webkit-box-shadow: 2px 7px 20px #999, 2px 2px 16px #999;
+    box-shadow: 2px 7px 20px #999, 2px 2px 16px #999;
+  }
+  
+  .app .main.my_wallet .balance .icon_wrp_bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .app .main.my_wallet .balance .icon_wrp_bg .icon-in-78 {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    float: right;
+    background: url(../../icons/pic-wallet.png) no-repeat center;
+    background-size: 60%;
+  }
+  
+  .app .main.my_wallet .balance .available {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 60px;
+    z-index: 2;
+    font-size: 20px;
+  }
+  
+  .app .main.my_wallet .balance .amount {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    z-index: 2;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .app .main.my_wallet .balance .amount span {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .app .main.my_wallet .balance .service_condition {
+    position: absolute;
+    left: 0;
+    top: 150px;
+    width: 100%;
+    height: 50px;
+    z-index: 2;
+  }
+  
+  .app .main.my_wallet .balance .service_condition .list {
+    width: 50%;
+    height: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+  }
+  /*记录——设置*/
+  
+  .app .main.my_wallet .setup_record {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+    overflow: hidden;
+  }
+  
+  .app .main.my_wallet .setup_record .border_left {
+    width: 100%;
+    height: 30px;
+    border-left: 4px solid rgb(19, 175, 104);
+    text-indent: 10px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .app .main.my_wallet .setup_record .list {
+    width: 100%;
+    height: auto;
+  }
+  
+  .app .main.my_wallet .setup_record .list li {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .app .main.my_wallet .setup_record .list li .text {
+    width: 80%;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    text-indent: 12px;
+    font-size: 18px;
+    color: #999;
+  }
+  
+  .app .main.my_wallet .setup_record .list li .icon_wrp {
+    width: 20%;
+    height: 40px;
+    float: right;
+  }
+  
+  .app .main.my_wallet .setup_record .list li .icon_wrp .icon-in-78 {
+    width: 40px;
+    height: 40px;
+    float: right;
+    background: url(../../icons/icon-in-78.png) no-repeat center;
+    background-size: 25%;
+  }
+  /*支付记录 入账记录 提现记录*/
+  
+  .app .main_sub_wallet {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #ccc;
+  }
+  
+  .app .main_sub_wallet .list {
+    width: 100%;
+    height: auto;
+  }
+  
+  .app .main_sub_wallet .list .item {
+    width: 100%;
+    /* height: 100px; */
+    margin: 15px 0;
+    background: rgb(19, 175, 104);
+    color: #fff;
+    -moz-box-shadow: 2px 7px 15px #999, 2px 2px 16px #999;
+    -webkit-box-shadow: 2px 7px 15px #999, 2px 2px 16px #999;
+    box-shadow: 2px 7px 15px #999, 2px 2px 16px #999;
+    border-radius: 20px;
+    padding: 0 15px;
+  }
+  
+  .app .main_sub_wallet .list .item .consume {
+    width: 100%;
+    height: 50px;
+    line-height: 60px;
+    font-size: 20px;
+  }
+   /*xxx*/
+  .app .main_sub_wallet .list .item .time_ammount {
+    width: 100%;
+    height: 50px;
+  }
+ 
+  .app .main_sub_wallet .list .item .time_ammount .time {
+    width: 80%;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+  }
+  
+  .app .main_sub_wallet .list .item .time_ammount .time span {
+    font-size: 16px;
+  }
+  
+  .app .main_sub_wallet .list .item .time_ammount .time .date {
+    width: 50%;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+  }
+  
+  .app .main_sub_wallet .list .item .time_ammount .time .detial {
+    width: 40%;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+  }
+  
+  .app .main_sub_wallet .list .item .time_ammount .ammount {
+    width: 20%;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+  }
+  
+  .app .main_sub_wallet .list .item .time_ammount .ammount span {
+    font-size: 16px;
+  }
+  
+  /*复写title和datail*/
+  .app .main_sub_wallet .list .item .main-sample-line {
+    line-height: 40px;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    /* height: 50px; */
+  }
+  .app .main_sub_wallet .list .item .sample-line {
+    line-height: 40px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .app .main_sub_wallet .list .item .sample-line .line-title {
+  	text-align:left;
+  	padding-left: 10px;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .app .main_sub_wallet .list .item .sample-line .line-title span {
+    
+  }
+  
+  .app .main_sub_wallet .list .item .sample-line .line-detail {
+    text-align:right;
+    padding-right: 10px;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .app .main_sub_wallet .list .item .sample-line .line-detail span {
+ 
+  }
+  .app .main_sub_wallet .list .item .sample-line .sample-line-button{
+  	width:40%;
+  	background: #8CB9FB;
+  	border-radius: 10px;
+  	line-height: 35px;
+  }
+  .app .main_sub_wallet .list .item .sample-line-status {
+ 
+    line-height: 40px;
+    font-size: 18px;
+    text-align: center;
+    /* height: 50px; */
+  }
+  /*充值*/
+  
+  .app .main_sub_wallet.recharge {
+    width: 100%;
+    padding-top: 30px;
+  }
+  
+  .app .main_sub_wallet.recharge .recharge_form {
+    width: 100%;
+    height: 240px;
+    padding-top: 30px;
+    background: rgb(19, 175, 104);
+    color: #fff;
+    -moz-box-shadow: 2px 7px 15px #999, 2px 2px 20px #999;
+    -webkit-box-shadow: 2px 7px 15px #999, 2px 2px 20px #999;
+    box-shadow: 2px 7px 15px #999, 2px 2px 20px #999;
+    border-radius: 20px;
+    padding: 20px 25px;
+  }
+  
+  .app .main_sub_wallet.recharge .recharge_form .title {
+    width: 100%;
+    height: 50px;
+    line-height: 40px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .app .main_sub_wallet.recharge .recharge_form .text {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border-radius: 10px;
+    text-indent: 6px;
+    font-size: 18px;
+    color: #000;
+  }
+  
+  .app .main_sub_wallet.recharge .recharge_form .text::-webkit-input-placeholder {
+    color: red;
+  }
+  
+  .app .main_sub_wallet.recharge .recharge_form .text:-moz-placeholder {
+    color: red;
+  }
+  
+  .app .main_sub_wallet.recharge .recharge_form .text::-moz-placeholder {
+    color: red;
+  }
+  
+  .app .main_sub_wallet.recharge .recharge_form .text:-ms-input-placeholder {
+    color: red;
+  }
+  
+  .app .main_sub_wallet.recharge .recharge_form .submit {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    color: rgb(19, 175, 104);
+    background: #fff;
+  }
+  /*确定充值*/
+  
+  .app .main_sub_wallet.recharge.confirm {
+    color: #fff;
+    text-align: center;
+  }
+  
+  .app .main_sub_wallet.recharge.confirm .recharge_form {}
+  
+  .app .main_sub_wallet.recharge.confirm .recharge_form .title {
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+  }
+  
+  .app .main_sub_wallet.recharge.confirm .recharge_form .cost {
+    width: 100%;
+    height: 60px;
+    line-height: 70px;
+    font-size: 35px;
+  }
+  
+  .app .main_sub_wallet.recharge.confirm .recharge_form .payment {
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    margin-top: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .app .main_sub_wallet.recharge.confirm .recharge_form .payment .paybtn {
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+  }
+  
+  .app .main_sub_wallet.recharge.confirm .recharge_form .payment .icon_wrp {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    float: left;
+  }
+  
+  .app .main_sub_wallet.recharge.confirm .recharge_form .payment .icon_wrp .ICON-wechatpay-128 {
+    width: 100%;
+    height: 100%;
+    float: right;
+    background: url(../../icons/ICON-wechatpay-128.png) no-repeat center;
+    background-size: 60%;
+  }
+  
+  .app .main_sub_wallet.recharge.confirm .recharge_form .payment .text {
+    display: inline-block;
+    width: 90px;
+    height: 50px;
+    float: left;
+    color: rgb(19, 175, 104);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+  }
+  /*提现账户*/
+  
+  .app .main_sub_wallet.recharge.withdraw {
+    padding-bottom: 60px;
+  }
+  
+  .app .main_sub_wallet.recharge.withdraw .recharge_form {
+    height: auto;
+    overflow: hidden;
+  }
+  
+  .app .main_sub_wallet.recharge.withdraw .recharge_form .text::-webkit-input-placeholder {
+    color: #999;
+  }
+  
+  .app .main_sub_wallet.recharge.withdraw .recharge_form .text:-moz-placeholder {
+    color: #999;
+  }
+  
+  .app .main_sub_wallet.recharge.withdraw .recharge_form .text::-moz-placeholder {
+    color: #999;
+  }
+  
+  .app .main_sub_wallet.recharge.withdraw .recharge_form .text:-ms-input-placeholder {
+    color: #999;
+  }
+  
+  .app .main_sub_wallet.recharge.withdraw .recharge_form .list {
+    margin-bottom: 10px;
+  }
+  
+  .app .main_sub_wallet.recharge.withdraw .recharge_form .list .select_bank {
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+  }
+  
+  .app .main_sub_wallet.recharge.withdraw .recharge_form .list .select_bank .bank_list {}
+  /*提现账户列表*/
+  
+  .app .main_sub_wallet.withdraw_account {}
+  
+  .app .main_sub_wallet.withdraw_account .withdraw_account_list {
+    width: 100%;
+    height: auto;
+    margin-bottom: 80px;
+  }
+  
+  .app .main_sub_wallet.withdraw_account .withdraw_account_list .item {
+    width: 100%;
+    height: 140px;
+    background: rgb(19, 175, 104);
+    color: #fff;
+    -moz-box-shadow: 2px 7px 15px #999, 2px 2px 20px #999;
+    -webkit-box-shadow: 2px 7px 15px #999, 2px 2px 20px #999;
+    box-shadow: 2px 7px 15px #999, 2px 2px 20px #999;
+    border-radius: 20px;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+  }
+  
+  .app .main_sub_wallet.withdraw_account .withdraw_account_list .item .bank {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .app .main_sub_wallet.withdraw_account .withdraw_account_list .item .is_selected {
+    width: 100%;
+    height: 40px;
+  }
+  
+  .app .main_sub_wallet.withdraw_account .withdraw_account_list .item .is_selected .icon_wrp {
+    width: 40px;
+    height: 40px;
+    float: right;
+  }
+  
+  .app .main_sub_wallet.withdraw_account .withdraw_account_list .item .is_selected .icon_wrp .ICON-yes {
+    width: 100%;
+    height: 100%;
+    float: right;
+    background: url(../../icons/ICON-yes.png) no-repeat center;
+    background-size: 60%;
+  }
+  
+  .app .main_sub_wallet.withdraw_account .withdraw_account_list .item .is_selected .icon_wrp .ICON-unselected {
+    width: 100%;
+    height: 100%;
+    float: right;
+    background: url(../../icons/ICON-YES-2-119.png) no-repeat center;
+    background-size: 60%;
+  }
+  
+  .app .main_sub_wallet.withdraw_account .withdraw_account_list .item .name_number {
+    width: 100%;
+    height: 40px;
+  }
+  
+  .app .main_sub_wallet.withdraw_account .withdraw_account_list .item .name_number .name {
+    width: 20%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+  }
+  
+  .app .main_sub_wallet.withdraw_account .withdraw_account_list .item .name_number .number {
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+  }
+  
+  .app .main_sub_wallet.withdraw_account .withdraw_account_list .item .name_number span {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  /*提现密码*/
+  
+  .app .main_sub_wallet.recharge.password .recharge_form {
+    height: auto;
+  }
+  
+  .app .main_sub_wallet.recharge.password .recharge_form .text::-webkit-input-placeholder {
+    color: #999;
+  }
+  
+  .app .main_sub_wallet.recharge.password .recharge_form .text:-moz-placeholder {
+    color: #999;
+  }
+  
+  .app .main_sub_wallet.recharge.password .recharge_form .text::-moz-placeholder {
+    color: #999;
+  }
+  
+  .app .main_sub_wallet.recharge.password .recharge_form .text:-ms-input-placeholder {
+    color: #999;
+  }
+  /*==================================我的钱包部分结束===========================================*/
+  /*==================================配送地址部分开始===========================================*/
+  
+  .app .title .icon_wrp .ICON-car {
+    width: 100%;
+    height: 100%;
+    background: url(../../icons/ICON-car-122.png) no-repeat center;
+    background-size: 75%;
+    background-position: left 55%;
+  }
+  
+  .app .delivery_address {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #ccc;
+  }
+  
+  .app .delivery_address .address_list {
+    width: 100%;
+    height: auto;
+  }
+  
+  .app .delivery_address .address_list .item {
+    width: 96%;
+    height: 80px;
+    background: rgb(19, 175, 104);
+    color: #fff;
+    -moz-box-shadow: 2px 7px 6px #ccc, 2px 2px 8px #ccc;
+    -webkit-box-shadow: 2px 7px 6px #ccc, 2px 2px 8px #ccc;
+    box-shadow: 2px 7px 6px #ccc, 2px 2px 8px #ccc;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 18px;
+    padding: 10px;
+  }
+  
+  .app .delivery_address .address_list .item ul {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+  }
+  
+  .app .delivery_address .address_list .item ul li {
+    height: 100%;
+    float: left;
+    font-weight: bold;
+    line-height: 30px;
+  }
+  
+  .app .delivery_address .address_list .item ul li.line_1 {
+    width: 30%;
+  }
+  
+  .app .delivery_address .address_list .item ul li.line_2 {
+    width: 60%;
+    overflow: hidden;
+  }
+  
+  .app .delivery_address .address_list .item ul li.line_2.detial {
+    font-weight: normal;
+    font-size: 14px;
+  }
+  
+  .app .delivery_address .address_list .item ul li.line_3 {
+    height: 10%;
+  }
+  
+  .app .delivery_address .address_list .item ul li.line_3 .icon_wrp {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .app .delivery_address .address_list .item ul li.line_3 .icon_wrp .icon {
+    width: 100%;
+    height: 100%;
+    background: url(../../icons/ICON-modification-117.png) no-repeat center;
+    background-size: 70%;
+  }
+  
+  .app .delivery_address .add_address {
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  
+  .app .delivery_address .add_address .icon_wrp {
+    width: 50px;
+    height: 50px;
+    float: left;
+  }
+  
+  .app .delivery_address .add_address .icon_wrp .icon {
+    width: 100%;
+    height: 100%;
+    background: url(../../icons/ICON-plus-125.png) no-repeat center;
+    background-size: 60%;
+  }
+  
+  .app .delivery_address .add_address .text {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(19, 175, 104);
+  }
+  /*添加地址部分*/
+  
+  .app .add_address_edit {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #ccc;
+  }
+  
+  .app .add_address_edit .address_edit {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .app .add_address_edit .address_edit .main_content {
+    background: rgb(19, 175, 104);
+    color: #fff;
+    -moz-box-shadow: 2px 7px 6px #ccc, 2px 2px 8px #ccc;
+    -webkit-box-shadow: 2px 7px 6px #ccc, 2px 2px 8px #ccc;
+    box-shadow: 2px 7px 6px #ccc, 2px 2px 8px #ccc;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 18px;
+    padding: 10px;
+  }
+  
+  .app .add_address_edit .address_edit .main_content .list {
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 5px;
+    overflow: hidden;
+  }
+  
+  .app .add_address_edit .address_edit .main_content .list .tips {
+    width: 25%;
+    height: 100%;
+    float: left;
+    line-height: 50px;
+    padding-left: 10px;
+  }
+  
+  .app .add_address_edit .address_edit .main_content .list .text {
+    width: 75%;
+    min-height: 50px;
+    float: right;
+    background: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 0;
+    padding: 5px 0;
+    font-size: 16px;
+  }
+  
+  .app .add_address_edit .address_edit .main_content .list .text.textarea {
+    height: auto;
+    min-height: 50px;
+  }
+  
+  .app .add_address_edit .address_edit .main_content .list .text.sex {
+    line-height: 50px;
+    padding-left: 5px;
+  }
+  
+  .app .add_address_edit .address_edit .main_content .list .text.known {
+    border-bottom: none;
+    display: block;
+    line-height: 40px;
+  }
+  
+  .app .add_address_edit .address_edit .main_content .list .text.sex label {
+    margin-right: 25px;
+    font-size: 16px;
+  }
+  
+  .app .add_address_edit .address_edit .main_content .step {
+    width: 100%;
+    height: 40px;
+  }
+  
+  .app .add_address_edit .address_edit .main_content .step label {
+    float: right;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  .app .add_address_edit .delete_confirm {
+    width: 100%;
+    height: 40px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .app .add_address_edit .delete_confirm .delet {
+    display: inline-block;
+    width: 120px;
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 10px;
+    background: red;
+    margin: 0 20px;
+  }
+  
+  .app .add_address_edit .delete_confirm .confirm {
+    display: inline-block;
+    width: 120px;
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 10px;
+    background: rgb(19, 175, 104);
+    margin: 0 20px;
+  }
+  
+  .app .add_address_edit .delete_confirm .confirm .submit {
+    width: 100%;
+    height: 100%;
+  }
+  /*==================================配送地址部分结束===========================================*/
+  /*==================================优惠券部分开始===========================================*/
+  
+  .app .title .icon_wrp .ICON-discount-coupon {
+    width: 100%;
+    height: 100%;
+    background: url(../../icons/ICON-discount-coupon.png) no-repeat center;
+    background-size: 60%;
+    background-position: left 50%;
+  }
+  
+  .app .coupon {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #ccc;
+    padding-bottom: 50px;
+  }
+  
+  .app .coupon .coupon_nav {
+    width: 100%;
+    height: 50px;
+    background: rgb(19, 175, 104);
+    color: #fff;
+    -moz-box-shadow: 2px 7px 6px #ccc, 2px 2px 8px #ccc;
+    -webkit-box-shadow: 2px 7px 6px #ccc, 2px 2px 8px #ccc;
+    box-shadow: 2px 7px 6px #ccc, 2px 2px 8px #ccc;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 18px;
+    padding: 10px;
+  }
+  
+  .app .coupon .coupon_nav li {
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    line-height: 30px;
+  }
+  
+  .app .coupon .coupon_nav li span {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .app .coupon .coupon_nav li.selected span {
+    border-bottom: 2px solid #fff;
+  }
+  
+  .app .coupon .list {
+    width: 100%;
+  }
+  
+  .app .coupon .list .item {
+    height: 160px;
+    margin: 15px 0;
+    background: url(../../icons/discount-coupon-11.png) no-repeat center;
+    background-size: 100% 100%;
+    position: relative;
+  }
+  
+  .app .coupon .list .item .content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    color: #fff;
+  }
+  
+  .app .coupon .list .item .content .left_content {
+    width: 33%;
+    height: 100%;
+    float: left;
+    text-align: center;
+  }
+  
+  .app .coupon .list .item .content .left_content .red_packet {
+    width: 100%;
+    height: 50px;
+    line-height: 70px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .app .coupon .list .item .content .left_content .amount {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .app .coupon .list .item .content .left_content .amount span {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .app .coupon .list .item .content .left_content .use_range {
+    width: 100%;
+    height: 50px;
+  	/*去掉line-height*/
+   /*  line-height: 30px; */
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .app .coupon .list .item .content .right_content {
+    width: 67%;
+    height: 100%;
+    float: left;
+  }
+  
+  .app .coupon .list .item .content .right_content .range_item {
+    width: 100%;
+    height: 50%;
+    padding: 10px 0 0 20px;
+  }
+  
+  .app .coupon .list .item .content .right_content .range_item span {
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .app .coupon .list .item .content .right_content .range_item .title {}
+  
+  .app .coupon .list .item .content .right_content .range_item .range {}
+  
+  .app .coupon .list .item .content .right_content .range_item .range i {
+    width: 100%;
+    display: block;
+    height: 50%;
+    float: left;
+  }
+  
+  .app .coupon .list .item .content .right_content .range_item .range i s {
+    text-decoration: none;
+  }
+  
+  .app .coupon .list .item .mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.6);
+    display: none;
+  }
+  
+  .app .coupon .list .item.overdue .mask {
+    display: block;
+  }
+  /*补充默认系统优惠券不显示*/
+  .app .coupon .system-coupon{
+	display:none;
+  }
+  
+  
+  /*==================================优惠券部分结束===========================================*/
+  /*==================================发票管理部分开始===========================================*/
+  /*已经完成的发票*/
+  
+  .app .title .icon_wrp .ICON-invoice {
+    width: 100%;
+    height: 100%;
+    background: url(../../icons/ICON-invoice.png) no-repeat center;
+    background-size: 65%;
+    background-position: left 50%;
+  }
+  
+  .app .bill_management {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #ccc;
+  }
+  
+  .app .bill_management .bill_nav {
+    width: 100%;
+    height: 50px;
+    background: rgb(19, 175, 104);
+    color: #fff;
+    -moz-box-shadow: 2px 7px 6px #ccc, 2px 2px 8px #ccc;
+    -webkit-box-shadow: 2px 7px 6px #ccc, 2px 2px 8px #ccc;
+    box-shadow: 2px 7px 6px #ccc, 2px 2px 8px #ccc;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 18px;
+    padding: 10px;
+  }
+  
+  .app .bill_management .bill_nav a {
+    display: inline-block;
+    width: 33.333%;
+    height: 50px;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .app .bill_management .bill_nav a li {
+    display: inline-block;
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .app .bill_management .bill_nav a li span {
+    font-size: 20px;
+    margin: 0 3px;
+  }
+  
+  .app .bill_management .bill_nav a li.selected {
+    border-bottom: 2px solid #fff;
+  }
+  
+  .app .bill_management .finished_bill_info {
+    width: 100%;
+    height: 260px;
+    background: rgb(19, 175, 104);
+    color: #fff;
+    -moz-box-shadow: 2px 7px 6px #ccc, 2px 2px 8px #ccc;
+    -webkit-box-shadow: 2px 7px 6px #ccc, 2px 2px 8px #ccc;
+    box-shadow: 2px 7px 6px #ccc, 2px 2px 8px #ccc;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 18px;
+    padding: 10px;
+  }
+  
+  .app .bill_management .finished_bill_info li {
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  
+  .app .bill_management .finished_bill_info li .title {
+    width: 40%;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    text-align: left;
+    font-size: 16px;
+    text-indent: 5px;
+  }
+  
+  .app .bill_management .finished_bill_info li .info_detial {
+    width: 55%;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  
+  .app .bill_management .finished_bill_info li .info_detial.price_type {
+    border-bottom: none;
+  }
+  
+  .app .bill_management .finished_bill_info li .info_detial.price_type .price {
+    width: 50%;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  .app .bill_management .finished_bill_info li .info_detial.price_type .type {
+    width: 50%;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    font-size: 18px;
+    text-align: right;
+  }
+  
+  .app .bill_management .important_tips {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-bottom: 60px;
+  }
+  
+  .app .bill_management .important_tips .title {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: left;
+    color: #555;
+  }
+  
+  .app .bill_management .important_tips .content {
+    width: 100%;
+    height: auto;
+  }
+  
+  .app .bill_management .important_tips .content .line {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #555;
+  }
+  /*待开的发票*/
+  
+  .app .bill_management .unfinished_bill_info {
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 18px 18px 0 0;
+  }
+  
+  .app .bill_management .unfinished_bill_info .number_data {
+    width: 100%;
+    height: 200px;
+    background: rgb(19, 175, 104) url(../../icons/Border-complete-95.png) no-repeat left top;
+    background-size: 100% 550px;
+    color: #fff;
+  }
+  
+  .app .bill_management .unfinished_bill_info .number_data span {
+    font-size: 20px;
+  }
+  
+  .app .bill_management .unfinished_bill_info .number_data .time_value {
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+  }
+  
+  .app .bill_management .unfinished_bill_info .number_data .time_value .time {
+    width: 60%;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    font-size: 18px;
+  }
+  
+  .app .bill_management .unfinished_bill_info .number_data .time_value .value {
+    width: 40%;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    text-align: right;
+    font-size: 18px;
+  }
+  
+  .app .bill_management .unfinished_bill_info .number_data .kinds {
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+    line-height: 50px;
+    font-size: 18px;
+  }
+  
+  .app .bill_management .unfinished_bill_info .number_data .kinds span {
+    font-size: 18px;
+  }
+  
+  .app .bill_management .unfinished_bill_info .number_data .service_info {
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+  }
+  
+  .app .bill_management .unfinished_bill_info .number_data .service_info .arrive {
+    width: 25%;
+    height: 100px;
+    line-height: 100px;
+    float: left;
+    font-size: 18px;
+  }
+  
+  .app .bill_management .unfinished_bill_info .number_data .service_info .start {
+    width: 35%;
+    height: 100%;
+    float: left;
+    line-height: 95px;
+  }
+  
+  .app .bill_management .unfinished_bill_info .number_data .service_info .start img {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .app .bill_management .unfinished_bill_info .number_data .service_info .weight {
+    width: 40%;
+    height: 100%;
+    float: left;
+    line-height: 100px;
+    font-size: 18px;
+  }
+  
+  .app .bill_management .unfinished_bill_info .goods_list .list_detial {
+    background: rgb(19, 175, 104);
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: none;
+  }
+  
+  .app .bill_management .unfinished_bill_info .goods_list .list {
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+  }
+  
+  .app .bill_management .unfinished_bill_info .goods_list .list span {}
+  
+  .app .bill_management .unfinished_bill_info .goods_list .list .name {
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+  }
+  
+  .app .bill_management .unfinished_bill_info .goods_list .list .number {
+    width: 60%;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+  }
+  
+  .app .bill_management .unfinished_bill_info .goods_list .list .value {
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    text-align: center;
+  }
+  
+  .app .bill_management .unfinished_bill_info .goods_list .list.discount {
+    border-bottom: none;
+    margin-bottom: 30px;
+  }
+  
+  .app .bill_management .unfinished_bill_info .goods_list .list.total {
+    border-bottom: none;
+    border-top: 1px solid #fff;
+  }
+  
+  .app .bill_management .unfinished_bill_info .goods_list .slide {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 0 0 18px 18px;
+  }
+  
+  .app .bill_management .unfinished_bill_info .goods_list .sak_bills {
+    width: 80%;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    float: left;
+    background: rgb(19, 175, 104);
+    text-align: center;
+    padding-left: 20%;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .app .bill_management .unfinished_bill_info .goods_list .btn-slide {
+    background: rgb(19, 175, 104) url(../../icons/ICON-take-back-120.png) no-repeat left center;
+    background-size: 25%;
+    text-align: right;
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    float: right;
+    text-align: center;
+    font-size: 16px;
+    padding-left: 5px;
+    color: #fff;
+  }
+  
+  .app .bill_management .unfinished_bill_info .goods_list .active {
+    background: rgb(19, 175, 104) url(../../icons/Icon-yes-97.png) no-repeat left center;
+    background-size: 25%;
+  }
+  /*修改发票抬头*/
+  
+  .app .change_bill_message {}
+  
+  .app .change_bill_message .date {
+    padding: 20px;
+  }
+  
+  .app .change_bill_message .date .bill_type {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+  }
+  
+  .app .change_bill_message .date .bill_type label {
+    width: 50%;
+    float: left;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .app .change_bill_message .date .date_list {
+    width: 100%;
+    height: 70px;
+    margin: 20px 0;
+  }
+  
+  .app .change_bill_message .date .date_list span  {
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+  }
+  
+  .app .change_bill_message .date .date_list input {
+    width: 100%;
+    height: 40px;
+  }
+  /*索取发票*/
+  
+  .app .ask_for_bill .address_mail {
+    width: 100%;
+    height: auto;
+  }
+  
+  .app .ask_for_bill .address_mail .item {
+    width: 100%;
+    height: 80px;
+    -moz-box-shadow: 2px 7px 15px #ccc, 2px 2px 8px #ccc;
+    -webkit-box-shadow: 2px 7px 15px #ccc, 2px 2px 8px #ccc;
+    box-shadow: 2px 7px 15px #ccc, 2px 2px 8px #ccc;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 18px;
+    padding: 10px;
+  }
+  
+  .app .ask_for_bill .address_mail .item .left_content {
+    width: 85%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+  }
+  
+  .app .ask_for_bill .address_mail .item .left_content .title {
+    width: 100%;
+    height: 30px;
+    line-height: 35px;
+    color: rgb(19, 175, 104);
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .app .ask_for_bill .address_mail .item .left_content .detial {
+    width: 100%;
+    height: 30px;
+    line-height: 25px;
+    color: rgb(19, 175, 104);
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  .app .ask_for_bill .address_mail .item .right_operate {
+    width: 15%;
+    height: 100%;
+    float: left;
+  }
+  
+  .app .ask_for_bill .address_mail .item .right_operate .icon_wrp {
+    width: 100%;
+    height: 30px;
+    margin-top: 15px;
+  }
+  
+  .app .ask_for_bill .address_mail .item .right_operate .icon_wrp.selected .Icon-button-1 {
+    width: 100%;
+    height: 100%;
+    background: url(../../icons/Icon-button-1.png) no-repeat center;
+    background-size: 100%;
+  }
+  
+  .app .ask_for_bill .address_mail .item .right_operate .icon_wrp.unselected .Icon-button-2 {
+    width: 100%;
+    height: 100%;
+    background: url(../../icons/Icon-button-2.png) no-repeat center;
+    background-size: 100%;
+  }
+  
+  .app .ask_for_bill .submit_selection {
+    width: 150px;
+    height: 50px;
+    margin: 30px auto;
+  }
+  
+  .app .ask_for_bill .submit_selection .Icon-yes-98 {
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: url(../../icons/Icon-yes-98.png) no-repeat center;
+    background-size: 70%;
+  }
+  
+  .app .ask_for_bill .submit_selection .text {
+    width: 100px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(19, 175, 104);
+  }
+  /*==================================发票管理部分结束===========================================*/
+  /*==================================推荐有礼部分开始===========================================*/
+  
+  .app .title .icon_wrp .ICON-gift {
+    width: 100%;
+    height: 100%;
+    background: url(../../icons/ICON-gift.png) no-repeat center;
+    background-size: 60%;
+    background-position: left 50%;
+  }
+  
+  .app .recommend {
+    padding-top: 50px;
+    text-align: center;
+  }
+  
+  .app .recommend .referral_order {}
+  
+  .app .recommend .referral_order .title {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .app .recommend .referral_order .value {
+    display: block;
+    color: rgb(19, 175, 104);
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .app .recommend .QR_Code {}
+  
+  .app .recommend .QR_Code .title {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .app .recommend .QR_Code .code_img {}
+  
+  .app .recommend .describe {
+    padding: 20px 0;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    height: 150px;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    overflow: hidden;
+  }
+  /*==================================推荐有礼部分结束===========================================*/
+  /*==================================用户反馈部分开始===========================================*/
+  
+  .app .title .icon_wrp .ICON-feedback {
+    width: 100%;
+    height: 100%;
+    background: url(../../icons/Icon-feedback-114.png) no-repeat center;
+    background-size: 55%;
+    background-position: left 45%;
+  }
+  
+  .app .feedback {
+    border-top: 1px solid #ccc;
+  }
+  
+  .app .feedback .number_time {
+    width: 100%;
+    height: 70px;
+    background: rgb(19, 175, 104);
+    color: #fff;
+    -moz-box-shadow: 2px 7px 6px #999, 2px 2px 8px #999;
+    -webkit-box-shadow: 2px 7px 6px #999, 2px 2px 8px #999;
+    box-shadow: 2px 7px 6px #999, 2px 2px 8px #999;
+    margin-top: 18px;
+    border-radius: 30px;
+  }
+  
+  .app .feedback .number_time span {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .app .feedback .number_time .telephone {
+    float: left;
+    line-height: 70px;
+    padding-left: 15px;
+  }
+  
+  .app .feedback .number_time .service_time {
+    float: right;
+    line-height: 70px;
+    padding-right: 15px;
+  }
+  /*反馈描述*/
+  
+  .app .feedback .feedback_info {
+    border-top: none;
+  }
+  
+  .app .feedback .feedback_info .date {
+    overflow: hidden;
+  }
+  
+  .app .feedback .feedback_info .date .feedback_content {
+    display: block;
+    width: 94%;
+    height: auto;
+    min-height: 200px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 16px;
+    padding: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .app .feedback .feedback_info .date .feedback_content::-webkit-input-placeholder {
+    color: #fff;
+  }
+  
+  .app .feedback .feedback_info .date .feedback_content:-moz-placeholder {
+    color: #fff;
+  }
+  
+  .app .feedback .feedback_info .date .feedback_content::-moz-placeholder {
+    color: #fff;
+  }
+  
+  .app .feedback .feedback_info .date .feedback_content:-ms-input-placeholder {
+    color: #fff;
+  }
+  /*推荐新商品*/
+  
+  .app .feedback .new_goods {
+    width: 100%;
+    height: 40px;
+    margin: 30px 0;
+  }
+  
+  .app .feedback .new_goods a {
+    display: block;
+    width: 150px;
+    height: 40px;
+    margin: 0 auto;
+  }
+  
+  .app .feedback .new_goods a .text {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    color: rgb(19, 175, 104);
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+  }
+  
+  .app .feedback .new_goods a .icon_wrp {
+    width: 50px;
+    height: 40px;
+    float: left;
+  }
+  
+  .app .feedback .new_goods a .icon_wrp .icon {
+    width: 100%;
+    height: 100%;
+    background: url(../../icons/icon-in-78.png) no-repeat center;
+    background-size: 25%;
+  }
+  /*==================================用户反馈部分结束===========================================*/
+  /*==================================退换货政策部分开始===========================================*/
+  
+  .app .title .icon_wrp .sales-return {
+    width: 100%;
+    height: 100%;
+    background: url(../../icons/sales-return.png) no-repeat center;
+    background-size: 55%;
+    background-position: left 45%;
+  }
+  
+  .app .changing_or_refunding {
+    width: 100%;
+    height: auto;
+    background: rgb(19, 175, 104);
+    color: #fff;
+    padding: 15px;
+    overflow: hidden;
+    padding-bottom: 60px;
+  }
+  
+  .app .changing_or_refunding .title {
+    text-align: left;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+  }
+  
+  .app .changing_or_refunding .p {
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  /*==================================退换货政策部分结束===========================================*/
